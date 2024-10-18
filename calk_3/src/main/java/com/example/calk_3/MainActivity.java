@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             operator = "*";
         }
     }
-
+//
     public void clickResult(View view) {
 
         String newNumber = inputText.getText().toString();
