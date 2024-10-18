@@ -33,6 +33,7 @@
 
             <Button
                 android:id="@+id/AllClear"
+                android:onClick="acClick"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -43,6 +44,7 @@
 
             <Button
                 android:id="@+id/PlusMinus"
+                android:onClick="clicKNumber"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -53,6 +55,7 @@
 
             <Button
                 android:id="@+id/Procent"
+                android:onClick="clickProcent"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -63,6 +66,7 @@
 
             <Button
                 android:id="@+id/Delenie"
+                android:onClick="Operations"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -111,6 +115,7 @@
 
             <Button
                 android:id="@+id/Umnojenie"
+                android:onClick="Operations"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -159,6 +164,7 @@
 
             <Button
                 android:id="@+id/Plus"
+                android:onClick="Operations"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -207,6 +213,7 @@
 
             <Button
                 android:id="@+id/Minus"
+                android:onClick="Operations"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:width="30pt"
@@ -227,6 +234,7 @@
 
             <Button
                 android:id="@+id/Zero"
+                android:onClick="clicKNumber"
                 android:layout_marginRight="1pt"
                 android:layout_weight="2"
                 android:width="30pt"
@@ -238,6 +246,7 @@
 
             <Button
                 android:id="@+id/Point"
+                android:onClick="clicKNumber"
                 android:layout_marginRight="1pt"
                 android:layout_weight="3"
                 android:width="30pt"
@@ -248,6 +257,7 @@
 
             <Button
                 android:id="@+id/Ravno"
+                android:onClick="clickResult"
                 android:layout_marginRight="1pt"
                 android:layout_weight="3"
                 android:width="30pt"
@@ -257,5 +267,4 @@
                 android:textSize="20sp"/>
         </TableRow>
     </LinearLayout>
-
 </LinearLayout>
